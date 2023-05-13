@@ -1,0 +1,24 @@
+.footer {
+    background-color: #000;
+    color: aliceblue;
+}
+
+.main_footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.main_footer p {
+    font-size: 0.8em;
+    padding: 15px 10px;
+}
+
+.main_footer a {
+    font-size: 0.8em;
+    color: #ccc;
+}

@@ -1,0 +1,65 @@
+.main_section_login {
+    width: 300px;
+    margin: 30px auto;
+}
+
+.main_section_login h1 {
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 30px 0;
+}
+
+.main_section_login form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_section_login form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.main_section_login label {
+    padding: 5px 0;
+}
+
+.main_section_login input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.main_section_login div button {
+    padding: 10px;
+    cursor: pointer;
+    color: #111;
+    border: 1px solid #ccc;
+    background-color: #fbfbfb;
+}
+
+.main_section_login div button:hover {
+    color: #555;
+    border: 1px solid #bbb;
+    background-color: #fbfbfb;
+}
+
+.main_section_login .info {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main_section_login .info a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .main_section_loginmar form {
+        width: auto;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+    }
+}

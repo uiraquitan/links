@@ -1,0 +1,120 @@
+.main_single_section_content_itens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main_single_section_content_itens a {
+    display: block;
+}
+
+.main_single_section_content_item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.main_single_section_content_image img {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main_single_section_content_item_info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+}
+
+.main_single_section_content_item_info p {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    background: rgb(255, 46, 0);
+    background: linear-gradient(90deg, rgba(255, 46, 0, 1) 0%, rgba(121, 9, 15, 1) 46%, rgba(2, 0, 36, 1) 100%);
+    text-align: center;
+    color: #fff;
+}
+
+.main_single_section_content_item_info>header {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.main_single_section_content_item_info>header h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+
+}
+
+.main_single_section_content_redes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.main_single_section_content_redes a {
+
+    font-weight: 500;
+}
+
+.main_single_section_content_redes img {
+    width: 25px;
+}
+
+.main_single_section_content_clicks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_single_section_content_clicks a {
+    text-align: right;
+
+}
+
+.main_single_section_content_clicks div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main_single_section_content_clicks div img {
+    width: 20px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+@media(max-width: 900px) {
+    .main_single_section_content_item {
+        grid-template-columns: 1fr;
+    }
+
+    .main_single_section_content_item_info {
+        margin-top: 10px;
+        box-shadow: 0 0 5px #ccc;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .main_single_section_content_itens {
+        padding: 20px;
+    }
+
+    .main_single_section_content_clicks {
+        border-top: 1px solid #ccc;
+        padding: 10px 0;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .main_single_section_content_itens {
+        grid-template-columns: 1fr;
+    }
+
+    .main_single_section_content_item_info header h2 {
+        margin: 30px 0;
+    }
+}

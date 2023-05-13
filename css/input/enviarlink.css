@@ -1,0 +1,62 @@
+.main_section_enviarlink {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main_section_enviarlink>header {
+    margin-bottom: 20px;
+}
+
+.main_section_enviarlink>header h1{
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.main_section_enviarlink>header p{
+    font-size: 0.9em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.main_section_enviarlink form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_section_enviarlink label {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.main_section_enviarlink textarea,
+.main_section_enviarlink select,
+.main_section_enviarlink input {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.main_section_enviarlink select,
+.main_section_enviarlink select,
+.main_section_enviarlink input {
+    padding: 10px;
+}
+
+.main_section_enviarlink button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #ccc;
+    border: none;
+    background-color: #111;
+    cursor: pointer;
+}
+
+.main_section_enviarlink button:hover {
+    
+    color: #111;
+    background-color: #ccc;
+}

@@ -1,0 +1,21 @@
+.main_links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.main_links_item {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fbfbfb;
+    padding: 5px;
+    gap: 40; height: 450px;
+}
+.main_links_item_imagem {
+   width: 100%;
+}
+.main_links_item_imagem img{
+    width: 100%;
+}

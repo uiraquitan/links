@@ -1,0 +1,26 @@
+/* BOOT */
+@import url("./boot.css");
+@import url("./fonts/fonts.css");
+
+/* HEADER */
+@import url("./header/header.css");
+
+/* CATEGORIA */
+@import url("./categoria/categoria.css");
+
+/* SINGLE */
+@import url("./single/single.css");
+
+/* FORM */
+@import url("./input/login.css");
+@import url("./input/enviarlink.css");
+
+/* HOME */
+@import url("./home/home.css");
+
+/* MAIN */
+@import url("./main/main.css");
+@import url("./main/main-links.css");
+
+/* FOOTER */
+@import url("./footer/footer.css");

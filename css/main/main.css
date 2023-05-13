@@ -1,0 +1,15 @@
+.main {
+    background-color: #fbfbfb;
+    margin-top: 20px;
+}
+
+.main_content {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
